@@ -3,9 +3,12 @@
     
 }
 .visit{
+    padding-left: 10px;
+
     font-weight: bold;
     font-size: 50px;
     line-height: 65px;
+    color: black;
 }
 
 .lead {
@@ -27,4 +30,33 @@ h1 {
     padding-bottom: 0;
     margin-bottom: 0;
 }
+#back1{
+   max-width: max-content;
+   max-height: min-content;
+}
+#homeTitle{
+    padding-left: 10px;
+
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 65px;
+    color: black;
+}
+#homeP{
+    padding-left: 30px;
+    font-style: italic;
+    color: black;
+    font-size: x-large;
+}
+#available{
+    padding-left: 10px;
+    margin-left: 190px;
+}
+
+#everything{
+    padding-left: 10px;
+
+    margin-left: 50px;
+}
+
 
