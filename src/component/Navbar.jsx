@@ -26,12 +26,7 @@ export default function Navbar() {
                             
                         </ul>
                         <div className="buttons">
-                            <NavLink to="/register" className="btn ms-2">
-                                Register</NavLink>
-
-                            <NavLink to="/login" className="btn ms-2">
-                                SignIn</NavLink>
-                            <NavLink to="/cart" className="btn ms-2">
+                            <NavLink to="/cart" className="btn ms-2 solid bg-light">
                                 <i className="fa fa-shopping-cart me-1 "></i> ({state.length})</NavLink>
                         </div>
                     </div>
