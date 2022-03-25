@@ -26,7 +26,7 @@ export default function Navbar() {
                             
                         </ul>
                         <div className="buttons">
-                            <NavLink to="/cart" className="btn ms-2 solid bg-light">
+                            <NavLink to="/cart" className="btn ms-2 solid" id="cartico">
                                 <i className="fa fa-shopping-cart me-1 "></i> ({state.length})</NavLink>
                         </div>
                     </div>
